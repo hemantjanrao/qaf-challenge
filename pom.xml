@@ -12,6 +12,7 @@
     <selenium.version>3.11.0</selenium.version>
     <testng.version>6.14.3</testng.version>
     <log4j.version>1.2.17</log4j.version>
+    <allure.version>2.0-BETA14</allure.version>
   </properties>
 
   <dependencies>
@@ -52,6 +53,12 @@
       <groupId>log4j</groupId>
       <artifactId>log4j</artifactId>
       <version>${log4j.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>${allure.version}</version>
     </dependency>
 
   </dependencies>
