@@ -26,6 +26,9 @@ public class CreateAccountPage extends BasePage<CreateAccountPage> {
     @FindBy(id = "customer_firstname")
     private WebElement inputCustomerFirstName;
 
+    @FindBy(id = "customer_lastname")
+    private WebElement inputCustomerLastName;
+
     @FindBy(css = "div.account_creation input[id='email']")
     private WebElement inputEmail;
 
@@ -86,10 +89,12 @@ public class CreateAccountPage extends BasePage<CreateAccountPage> {
     @FindBy(id = "alias")
     private WebElement inputAlias;
 
+    @FindBy(id = "submitAccount")
+    private WebElement btnRegister;
+
     public String getCurrentEmailAddress(){
         return inputEmail.getAttribute("value");
     }
-
 
     public void registerUser(PersonInfo personInfo){
         try {
@@ -100,8 +105,33 @@ public class CreateAccountPage extends BasePage<CreateAccountPage> {
             }
 
                 WebUtils.fill(inputCustomerFirstName, personInfo.FirstName);
+                WebUtils.fill(inputCustomerLastName, personInfo.LastName);
                 WebUtils.fill(inputEmail, personInfo.Email);
                 WebUtils.fill(inputPassword, personInfo.Password);
+                WebUtils.selectByValue(wd, selectDay, String.valueOf(personInfo.Day));
+                WebUtils.selectByIndex(wd, selectMonth, personInfo.Month);
+                WebUtils.selectByValue(wd, selectYear, personInfo.Year);
+                if(personInfo.NewsLetter) {
+                    WebUtils.clickWithWaitForElement(wd, inputNewsLetter);
+                }
+                if(personInfo.SpecialOffers) {
+                    WebUtils.clickWithWaitForElement(wd, inputOption);
+                }
+
+                WebUtils.fill(inputFirstname, personInfo.FirstName);
+                WebUtils.fill(inputLastname, personInfo.LastName);
+                WebUtils.fill(inputCompany, personInfo.Company);
+                WebUtils.fill(inputAddress1, personInfo.Address1);
+                WebUtils.fill(inputAddress2, personInfo.Address2);
+                WebUtils.fill(inputCity, personInfo.City);
+                WebUtils.fill(selectState, personInfo.State);
+                WebUtils.fill(inputPostCode, personInfo.PostCode);
+                WebUtils.selectByText(wd, selectCountry, "United States");
+                WebUtils.fill(inputAdditionalInformation, personInfo.AdditionalInformation);
+                WebUtils.fill(inputHomePhone, personInfo.HomePhone);
+                WebUtils.fill(inputMobilePhone, personInfo.MobilePhone);
+                WebUtils.fill(inputAlias, personInfo.Alias);
+
 
             } catch (Exception ex) {
             ex.printStackTrace();

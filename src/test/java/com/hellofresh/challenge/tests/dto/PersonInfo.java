@@ -1,5 +1,8 @@
 package com.hellofresh.challenge.tests.dto;
 
+import io.codearte.jfairy.Fairy;
+import io.codearte.jfairy.producer.person.Person;
+
 public class PersonInfo {
 
     public String Gender;
@@ -12,9 +15,9 @@ public class PersonInfo {
 
     public int Day;
 
-    public String Month;
+    public int Month;
 
-    public int Year;
+    public String Year;
 
     public boolean NewsLetter;
 
@@ -45,4 +48,35 @@ public class PersonInfo {
     public String MobilePhone;
 
     public String Alias;
+
+    public static PersonInfo newInstance(){
+        PersonInfo PersonInfo = new PersonInfo();
+        Fairy fairy = Fairy.create();
+        Person person = fairy.person();
+
+        PersonInfo.Gender = person.getSex().toString();
+        PersonInfo.CustomerFirstName = person.getFirstName();
+        PersonInfo.Email = person.getEmail();
+        PersonInfo.Password = person.getPassword();
+        PersonInfo.Day = fairy.baseProducer().randomBetween(1, 28);
+        PersonInfo.Month = fairy.baseProducer().randomBetween(1, 11);
+        PersonInfo.Year = "1988";
+        PersonInfo.NewsLetter = true;
+        PersonInfo.SpecialOffers = true;
+        PersonInfo.FirstName = person.getFirstName();
+        PersonInfo.LastName = person.getLastName();
+        PersonInfo.Company = person.getCompany().toString();
+        PersonInfo.Address1 = person.getAddress().getAddressLine1();
+        PersonInfo.Address2 = person.getAddress().getAddressLine2();
+        PersonInfo.City = person.getAddress().getCity();
+        PersonInfo.State = "Albama";
+        PersonInfo.PostCode = person.getAddress().getPostalCode();
+        PersonInfo.Country = "United States";
+        PersonInfo.AdditionalInformation = fairy.textProducer().randomString(20);
+        PersonInfo.HomePhone = person.getTelephoneNumber();
+        PersonInfo.MobilePhone = person.getTelephoneNumber();
+        PersonInfo.Alias = fairy.textProducer().randomString(10);
+
+        return PersonInfo;
+    }
 }

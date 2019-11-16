@@ -4,6 +4,7 @@ import com.hellofresh.challenge.utils.PropertyUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -100,6 +101,20 @@ public class WebUtils {
         ((JavascriptExecutor) wd).executeScript(script);
     }
 
+    public static void selectByValue(WebDriver wd, WebElement elem, String optionName ){
+        Select dropdown = new Select(elem);
+        dropdown.selectByValue(optionName);
+    }
+
+    public static void selectByIndex(WebDriver wd, WebElement elem, int index ){
+        Select dropdown = new Select(elem);
+        dropdown.selectByIndex(index);
+    }
+
+    public static void selectByText(WebDriver wd, WebElement elem, String text){
+        Select dropdown = new Select(elem);
+        dropdown.selectByVisibleText(text);
+    }
 
 
 }
