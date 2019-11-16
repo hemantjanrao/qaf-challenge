@@ -2,7 +2,7 @@
 #### Preconditions
 * Generated customer with all customer data
 #### Test steps
-* Open [Home page](http://automationpractice.com/index.php)
+* Open [Home page]
 * Click *Sign in* button
 * Fill *Email address* to create an account
 * Click *Create an account* 
@@ -47,3 +47,5 @@
 * Order confirmation page(?controller=order-confirmation) is opened
 * The order is complete.
 * Current page is the last step of ordering 
+
+[]: http://automationpractice.com/index.php

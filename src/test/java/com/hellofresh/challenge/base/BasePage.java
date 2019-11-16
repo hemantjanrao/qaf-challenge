@@ -44,4 +44,8 @@ public abstract class BasePage<T extends BasePage> {
         return (T) this;
     }
 
+    public String getCurrentURL(){
+        return wd.getCurrentUrl();
+    }
+
 }
