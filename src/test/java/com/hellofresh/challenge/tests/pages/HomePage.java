@@ -5,6 +5,7 @@ import com.hellofresh.challenge.driver.WebUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class HomePage extends BasePage<HomePage> {
 
@@ -25,8 +26,11 @@ public class HomePage extends BasePage<HomePage> {
     @FindBy(name = "submit_search")
     private WebElement btnSubmitSearch;
 
-    public void signIn(){
+    public AuthenticationPage signIn(){
         WebUtils.clickWithWaitForElement(wd, linkLogin, 5000);
+
+        WebUtils.waitForPageLoad(wd);
+        return PageFactory.initElements(wd, AuthenticationPage.class);
     }
 
 }
