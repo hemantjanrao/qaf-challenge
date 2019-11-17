@@ -10,7 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 public class AuthenticationPage extends BasePage<AuthenticationPage> {
 
     public AuthenticationPage(WebDriver driver) {
-        super(driver, true);
+        super(driver);
     }
 
     public String getURL() {
@@ -43,7 +43,14 @@ public class AuthenticationPage extends BasePage<AuthenticationPage> {
         WebUtils.waitForPageLoad(wd);
 
         return PageFactory.initElements(wd, CreateAccountPage.class);
+    }
 
+    public MyAccountPage existingUserLogin(String userEmail, String userPassword){
+        WebUtils.fill(inputEmail, userEmail);
+        WebUtils.fill(inputPasswd, userPassword);
+        WebUtils.clickWithWaitForElement(wd, btnSubmitLogin);
+
+        return PageFactory.initElements(wd, MyAccountPage.class);
     }
 
 }

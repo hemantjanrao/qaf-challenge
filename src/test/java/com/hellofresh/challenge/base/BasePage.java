@@ -1,15 +1,16 @@
 package com.hellofresh.challenge.base;
 
-import com.hellofresh.challenge.utils.PropertyUtils;
-import org.apache.log4j.Logger;
+import com.hellofresh.challenge.driver.WebUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 public abstract class BasePage<T extends BasePage> {
     protected WebDriver wd;
-    String appsUrl = PropertyUtils.getsAppUrl();
-    protected Logger log = Logger.getLogger(getClass());
+    String appsUrl = System.getProperty("appsUrl");
+    protected final Logger log = LogManager.getLogger(this);
 
     public abstract String getURL();
 
@@ -35,7 +36,8 @@ public abstract class BasePage<T extends BasePage> {
 
     public T navigateTo() {
         log.info(String.format("Navigating to url - '%s'", getURL()));
-        String url = PropertyUtils.getsAppUrl() + getURL();
+        //String url = PropertyUtils.getsAppUrl() + getURL();
+        String url = System.getProperty("appsUrl") + getURL();
         if (wd.getCurrentUrl().equals(url)) {
             wd.navigate().refresh();
         }
@@ -47,5 +49,7 @@ public abstract class BasePage<T extends BasePage> {
     public String getCurrentURL(){
         return wd.getCurrentUrl();
     }
+
+
 
 }

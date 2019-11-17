@@ -6,6 +6,7 @@ import com.hellofresh.challenge.tests.dto.PersonInfo;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class CreateAccountPage extends BasePage<CreateAccountPage> {
 
@@ -96,7 +97,9 @@ public class CreateAccountPage extends BasePage<CreateAccountPage> {
         return inputEmail.getAttribute("value");
     }
 
-    public void registerUser(PersonInfo personInfo){
+    public MyAccountPage registerUser(PersonInfo personInfo){
+
+        MyAccountPage myAccountPage = null;
         try {
             if (personInfo.Gender.equalsIgnoreCase("FEMALE")) {
                 WebUtils.clickWithWaitForElement(wd, inputMrs);
@@ -124,7 +127,7 @@ public class CreateAccountPage extends BasePage<CreateAccountPage> {
                 WebUtils.fill(inputAddress1, personInfo.Address1);
                 WebUtils.fill(inputAddress2, personInfo.Address2);
                 WebUtils.fill(inputCity, personInfo.City);
-                WebUtils.fill(selectState, personInfo.State);
+                WebUtils.selectByText(wd, selectState, personInfo.State);
                 WebUtils.fill(inputPostCode, personInfo.PostCode);
                 WebUtils.selectByText(wd, selectCountry, "United States");
                 WebUtils.fill(inputAdditionalInformation, personInfo.AdditionalInformation);
@@ -132,10 +135,15 @@ public class CreateAccountPage extends BasePage<CreateAccountPage> {
                 WebUtils.fill(inputMobilePhone, personInfo.MobilePhone);
                 WebUtils.fill(inputAlias, personInfo.Alias);
 
+                WebUtils.clickWithWaitForElement(wd, btnRegister);
+
+                myAccountPage = PageFactory.initElements(wd, MyAccountPage.class);
+
 
             } catch (Exception ex) {
             ex.printStackTrace();
         }
+        return myAccountPage;
     }
 
 }

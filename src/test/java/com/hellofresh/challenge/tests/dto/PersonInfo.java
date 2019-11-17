@@ -69,7 +69,7 @@ public class PersonInfo {
         PersonInfo.Address1 = person.getAddress().getAddressLine1();
         PersonInfo.Address2 = person.getAddress().getAddressLine2();
         PersonInfo.City = person.getAddress().getCity();
-        PersonInfo.State = "Albama";
+        PersonInfo.State = "Alabama";
         PersonInfo.PostCode = person.getAddress().getPostalCode();
         PersonInfo.Country = "United States";
         PersonInfo.AdditionalInformation = fairy.textProducer().randomString(20);

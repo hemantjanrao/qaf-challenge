@@ -1,0 +1,1 @@
+{"uuid":"2818cf1c-da2c-4668-affb-f7f95985eafd","name":"com.hellofresh.challenge.base.BaseTest.logStartMethod","description":"","start":1574018931679,"stop":1574018931680,"children":["8fa332d9-ac24-4577-ad10-f16ba3904346"],"befores":[{"name":"logStartMethod","status":"passed","stage":"finished","description":"","start":1574018931679,"stop":1574018931679}]}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="37120" started-at="2019-11-17T19:40:45Z" finished-at="2019-11-17T19:41:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="37120" started-at="2019-11-17T19:40:45Z" finished-at="2019-11-17T19:41:22Z">
+      <class name="com.hellofresh.challenge.base.BaseTest">
+        <test-method status="PASS" signature="setUpEnvironment()[pri:0, instance:com.hellofresh.challenge.base.BaseTest@54e1c68b]" name="setUpEnvironment" is-config="true" duration-ms="36" started-at="2019-11-17T19:40:45Z" finished-at="2019-11-17T19:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpEnvironment -->
+      </class> <!-- com.hellofresh.challenge.base.BaseTest -->
+      <class name="com.hellofresh.challenge.tests.ui.RegisterTest">
+        <test-method status="PASS" signature="baseTestBeforeClass()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="baseTestBeforeClass" is-config="true" duration-ms="1" started-at="2019-11-17T19:40:45Z" finished-at="2019-11-17T19:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestBeforeClass -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="initializeDriver" is-config="true" duration-ms="5283" started-at="2019-11-17T19:40:45Z" finished-at="2019-11-17T19:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="beforeClass" is-config="true" duration-ms="4604" started-at="2019-11-17T19:40:50Z" finished-at="2019-11-17T19:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="logStartMethod" is-config="true" duration-ms="3" started-at="2019-11-17T19:40:55Z" finished-at="2019-11-17T19:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hellofresh.challenge.tests.ui.RegisterTest.SignInExistingCustomer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="beforeMethod" is-config="true" duration-ms="2091" started-at="2019-11-17T19:40:55Z" finished-at="2019-11-17T19:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SignInExistingCustomer()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="SignInExistingCustomer" duration-ms="6818" started-at="2019-11-17T19:40:57Z" finished-at="2019-11-17T19:41:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInExistingCustomer -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-11-17T19:41:04Z" finished-at="2019-11-17T19:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hellofresh.challenge.tests.ui.RegisterTest.SignInExistingCustomer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="logStartMethod(java.lang.reflect.Method)[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="logStartMethod" is-config="true" duration-ms="1" started-at="2019-11-17T19:41:04Z" finished-at="2019-11-17T19:41:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hellofresh.challenge.tests.ui.RegisterTest.SignInNewCustomer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logStartMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="beforeMethod" is-config="true" duration-ms="2608" started-at="2019-11-17T19:41:04Z" finished-at="2019-11-17T19:41:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="SignInNewCustomer()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="SignInNewCustomer" duration-ms="14677" started-at="2019-11-17T19:41:06Z" finished-at="2019-11-17T19:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInNewCustomer -->
+        <test-method status="PASS" signature="logEndMethod(java.lang.reflect.Method)[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="logEndMethod" is-config="true" duration-ms="1" started-at="2019-11-17T19:41:21Z" finished-at="2019-11-17T19:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hellofresh.challenge.tests.ui.RegisterTest.SignInNewCustomer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logEndMethod -->
+        <test-method status="PASS" signature="afterTests()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="afterTests" is-config="true" duration-ms="827" started-at="2019-11-17T19:41:21Z" finished-at="2019-11-17T19:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTests -->
+        <test-method status="PASS" signature="destroyDriver()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="destroyDriver" is-config="true" duration-ms="4" started-at="2019-11-17T19:41:22Z" finished-at="2019-11-17T19:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+        <test-method status="PASS" signature="baseTestAfterClass()[pri:0, instance:com.hellofresh.challenge.tests.ui.RegisterTest@53aac487]" name="baseTestAfterClass" is-config="true" duration-ms="1" started-at="2019-11-17T19:41:22Z" finished-at="2019-11-17T19:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTestAfterClass -->
+      </class> <!-- com.hellofresh.challenge.tests.ui.RegisterTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

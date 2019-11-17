@@ -1,0 +1,210 @@
+2019-11-17 19:39:22.938 [main] INFO  RegisterTest - Setting up SMOKE environment
+2019-11-17 19:39:22.968 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 19:39:22.969 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 19:39:27.879 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 19:39:27.923 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 19:39:39.470 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 19:39:39.594 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 19:39:56.271 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 19:39:57.096 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 19:39:57.097 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 19:41:37.874 [main] INFO  RegisterTest - Setting up SMOKE environment
+2019-11-17 19:41:37.903 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 19:41:37.904 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 19:41:37.909 [main] WARN  CustomListener - 'initializeDriver' method is failed, saving screenshot
+2019-11-17 19:41:37.909 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:41:37.953 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 19:41:37.954 [main] WARN  CustomListener - 'beforeClass' method is failed, saving screenshot
+2019-11-17 19:41:37.954 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:41:37.972 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 19:41:38.089 [main] WARN  CustomListener - 'beforeMethod' method is failed, saving screenshot
+2019-11-17 19:41:38.096 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:41:38.222 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 19:41:38.228 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 19:41:38.228 [main] WARN  CustomListener - 'destroyDriver' method is failed, saving screenshot
+2019-11-17 19:41:38.229 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:41:38.231 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 19:48:06.646 [main] INFO  RegisterTest - Setting up SMOKE environment
+2019-11-17 19:48:06.679 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 19:48:06.680 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 19:48:06.692 [main] WARN  CustomListener - 'initializeDriver' method is failed, saving screenshot
+2019-11-17 19:48:06.692 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:48:06.726 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 19:48:06.727 [main] WARN  CustomListener - 'beforeClass' method is failed, saving screenshot
+2019-11-17 19:48:06.727 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:48:06.743 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 19:48:06.866 [main] WARN  CustomListener - 'beforeMethod' method is failed, saving screenshot
+2019-11-17 19:48:06.866 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:48:06.950 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 19:48:06.957 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 19:48:06.958 [main] WARN  CustomListener - 'destroyDriver' method is failed, saving screenshot
+2019-11-17 19:48:06.959 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:48:06.962 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 19:57:20.013 [main] INFO  RegisterTest - Setting up SMOKE environment
+2019-11-17 19:57:20.041 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 19:57:20.062 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 19:57:20.078 [main] WARN  CustomListener - 'initializeDriver' method is failed, saving screenshot
+2019-11-17 19:57:20.078 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:57:20.121 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 19:57:20.122 [main] WARN  CustomListener - 'beforeClass' method is failed, saving screenshot
+2019-11-17 19:57:20.122 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 19:57:26.445 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 19:57:26.483 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 19:57:26.484 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 19:57:31.449 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 19:57:31.483 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 19:57:44.126 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 19:57:44.291 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 19:58:02.489 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 19:58:03.296 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 19:58:03.299 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:09:48.326 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 20:09:48.361 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:09:48.362 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:09:53.380 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 20:09:53.419 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:09:58.740 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:09:58.895 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:10:06.296 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:10:07.148 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:10:07.171 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:23:46.667 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 20:23:46.697 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:23:46.698 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:23:51.809 [main] WARN  CustomListener - 'initializeDriver' method is failed, saving screenshot
+2019-11-17 20:23:51.809 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:23:51.850 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:23:51.852 [main] WARN  CustomListener - 'beforeClass' method is failed, saving screenshot
+2019-11-17 20:23:51.852 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:23:51.870 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:23:51.985 [main] WARN  CustomListener - 'beforeMethod' method is failed, saving screenshot
+2019-11-17 20:23:51.986 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:23:52.062 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:23:52.067 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:23:52.068 [main] WARN  CustomListener - 'destroyDriver' method is failed, saving screenshot
+2019-11-17 20:23:52.068 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:23:52.070 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:24:18.300 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 20:24:18.340 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:24:18.341 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:24:22.001 [main] WARN  CustomListener - 'initializeDriver' method is failed, saving screenshot
+2019-11-17 20:24:22.001 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:24:22.041 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:24:22.042 [main] WARN  CustomListener - 'beforeClass' method is failed, saving screenshot
+2019-11-17 20:24:22.042 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:24:22.054 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:24:22.156 [main] WARN  CustomListener - 'beforeMethod' method is failed, saving screenshot
+2019-11-17 20:24:22.156 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:24:22.248 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:24:22.254 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:24:22.254 [main] WARN  CustomListener - 'destroyDriver' method is failed, saving screenshot
+2019-11-17 20:24:22.255 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:24:22.258 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:25:13.029 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 20:25:13.066 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:25:13.067 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:26:00.436 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 20:26:00.489 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:26:05.340 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:26:05.558 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:26:15.402 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:26:16.742 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:26:16.743 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:28:48.113 [main] INFO  BaseTest - Setting up SMOKE environment
+2019-11-17 20:28:48.133 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:28:48.133 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:28:51.610 [main] WARN  CustomListener - 'initializeDriver' method is failed, saving screenshot
+2019-11-17 20:28:51.610 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:28:51.656 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:28:51.657 [main] WARN  CustomListener - 'beforeClass' method is failed, saving screenshot
+2019-11-17 20:28:51.657 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:28:51.679 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:28:51.785 [main] WARN  CustomListener - 'beforeMethod' method is failed, saving screenshot
+2019-11-17 20:28:51.785 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:28:51.904 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:28:51.907 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 20:28:51.910 [main] WARN  CustomListener - 'beforeMethod' method is failed, saving screenshot
+2019-11-17 20:28:51.910 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:28:51.918 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 20:28:51.924 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:28:51.924 [main] WARN  CustomListener - 'destroyDriver' method is failed, saving screenshot
+2019-11-17 20:28:51.926 [main] WARN  RegisterTest - WebDriver is null, unable to save screenshot
+2019-11-17 20:28:51.928 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:29:24.867 [main] INFO  BaseTest - Setting up SMOKE environment
+2019-11-17 20:29:24.885 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:29:24.886 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:29:33.099 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 20:29:33.146 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:29:42.124 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:29:42.272 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:29:50.277 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:29:50.280 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 20:29:50.282 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:31:20.315 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-17 20:31:21.997 [main] WARN  CustomListener - 'afterTests' method is failed, saving screenshot
+2019-11-17 20:31:22.001 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:31:22.002 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:33:42.179 [main] INFO  BaseTest - Setting up STAGING environment
+2019-11-17 20:33:42.197 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:33:42.198 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:33:50.064 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 20:33:50.114 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:33:56.914 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:33:57.032 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:34:04.888 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:34:04.892 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 20:34:04.894 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:34:28.916 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-17 20:34:29.403 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 20:34:29.405 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 20:34:29.408 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:34:46.269 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-17 20:34:46.332 [main] WARN  CustomListener - 'afterTests' method is failed, saving screenshot
+2019-11-17 20:34:46.335 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:34:46.335 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:35:04.926 [main] INFO  BaseTest - Setting up STAGING environment
+2019-11-17 20:35:04.944 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:35:04.945 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:35:11.068 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 20:35:11.108 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:35:16.624 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:35:16.764 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:35:24.284 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:35:24.288 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 20:35:24.290 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:36:22.443 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-17 20:36:23.574 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:36:23.575 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 20:40:45.298 [main] INFO  BaseTest - Setting up STAGING environment
+2019-11-17 20:40:45.321 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 20:40:45.321 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 20:40:50.604 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 20:40:50.643 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:40:55.223 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 20:40:55.365 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:41:04.295 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 20:41:04.299 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 20:41:04.303 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 20:41:21.592 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 20:41:22.426 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 20:41:22.429 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 21:59:49.587 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 21:59:49.618 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 21:59:49.619 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 21:59:55.487 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 21:59:55.521 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 21:59:59.914 [main] INFO  RegisterTest - Starting tests method 'checkoutTest'
+2019-11-17 22:00:00.136 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:00:11.071 [main] INFO  RegisterTest - Ending tests method 'checkoutTest'
+2019-11-17 22:00:11.912 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 22:00:11.914 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 22:04:19.839 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 22:04:19.873 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 22:04:19.874 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-17 22:04:25.042 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 22:04:25.120 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:04:30.194 [main] INFO  RegisterTest - Starting tests method 'checkoutTest'
+2019-11-17 22:04:30.374 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:04:43.444 [main] INFO  RegisterTest - Ending tests method 'checkoutTest'
+2019-11-17 22:04:44.380 [main] INFO  RegisterTest - Destroying the driver
+2019-11-17 22:04:44.381 [main] INFO  RegisterTest - Starting the After class of 'Base Test'

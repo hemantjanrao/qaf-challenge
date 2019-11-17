@@ -1,7 +1,8 @@
 package com.hellofresh.challenge.base;
 
 import com.hellofresh.challenge.driver.DriverManager;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.UnhandledAlertException;
@@ -20,7 +21,7 @@ import java.util.Objects;
 
 public class BaseUITest extends BaseTest {
     protected WebDriver wd = null;
-    protected Logger log = Logger.getLogger(getClass());
+    protected final Logger log = LogManager.getLogger(this);
 
     @BeforeClass(alwaysRun = true)
     public void initializeDriver() {

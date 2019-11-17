@@ -35,6 +35,17 @@ public class PropertyUtils {
         return System.getProperty("appsUrl", PROPERTIES.getProperty("appsUrl"));
     }
 
+    public static String getEnvironment() {
+        return System.getProperty("environment", PROPERTIES.getProperty("environment"));
+    }
+
+    public static String getSmokeURL() {
+        return System.getProperty("smokeUrl", PROPERTIES.getProperty("smokeUrl"));
+    }
+
+    public static String getStageURL() {
+        return System.getProperty("stageUrl", PROPERTIES.getProperty("stageUrl"));
+    }
 
     public static long getDefaultTimeOutForElement() {
         return Long.parseLong(System.getProperty("defaultTimeoutForElement",

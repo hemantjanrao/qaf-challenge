@@ -26,12 +26,16 @@ public class WebUtils {
     }
 
     public static void fill(WebElement element, String value) {
-        if (!isElementDisplayed(element)) {
+       /* if (!isElementDisplayed(element)) {
             throw new ElementNotVisibleException(element + " is not visible");
-        }
+        }*/
+       try{
         element.clear();
 
         element.sendKeys(value);
+       } catch(ElementNotVisibleException ex){
+           ex.printStackTrace();
+       }
     }
 
     public static boolean isElementDisplayed(WebElement element) {
@@ -82,8 +86,9 @@ public class WebUtils {
 
 
     public static void clickWithWaitForElement(WebDriver wd, WebElement elem) {
-        WebUtils.waitForElementToBeDisplayed(wd, elem, PropertyUtils.getDefaultTimeOutForElement());
-        WebUtils.waitForElementToBeClickable(wd, elem, PropertyUtils.getDefaultTimeOutForElement());
+        scrollToElement(wd, elem);
+        /*WebUtils.waitForElementToBeDisplayed(wd, elem, PropertyUtils.getDefaultTimeOutForElement());
+        WebUtils.waitForElementToBeClickable(wd, elem, PropertyUtils.getDefaultTimeOutForElement());*/
         elem.click();
     }
 
@@ -114,6 +119,10 @@ public class WebUtils {
     public static void selectByText(WebDriver wd, WebElement elem, String text){
         Select dropdown = new Select(elem);
         dropdown.selectByVisibleText(text);
+    }
+
+    public static void navigateTo(WebDriver wd, String linkName){
+        moveToElementAndClick(wd, wd.findElement(By.linkText(linkName)));
     }
 
 
