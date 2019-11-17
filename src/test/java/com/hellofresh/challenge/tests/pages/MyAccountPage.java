@@ -35,10 +35,10 @@ public class MyAccountPage extends BasePage<MyAccountPage> {
         WebUtils.clickWithWaitForElement(wd, linkLogout);
     }
 
-    public WomenFashioPage gotoMenu(String menuName){
+    public WomenFashionPage gotoMenu(String menuName){
         WebUtils.navigateTo(wd, menuName);
 
-        return PageFactory.initElements(wd, WomenFashioPage.class);
+        return PageFactory.initElements(wd, WomenFashionPage.class);
     }
 }
 

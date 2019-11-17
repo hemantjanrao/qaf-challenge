@@ -208,3 +208,39 @@
 2019-11-17 22:04:43.444 [main] INFO  RegisterTest - Ending tests method 'checkoutTest'
 2019-11-17 22:04:44.380 [main] INFO  RegisterTest - Destroying the driver
 2019-11-17 22:04:44.381 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 22:32:06.150 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 22:32:06.191 [TestNG-test=all-tests-1] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 22:32:06.192 [TestNG-test=all-tests-1] INFO  RegisterTest - Start initializing the driver
+2019-11-17 22:32:11.596 [TestNG-test=all-tests-1] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 22:32:11.684 [TestNG-test=all-tests-1] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:32:20.130 [TestNG-test=all-tests-1] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 22:32:20.133 [TestNG-test=all-tests-2] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 22:32:20.133 [TestNG-test=all-tests-3] INFO  RegisterTest - Starting tests method 'checkoutTest'
+2019-11-17 22:32:20.323 [TestNG-test=all-tests-3] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:32:20.323 [TestNG-test=all-tests-2] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:32:20.340 [TestNG-test=all-tests-1] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:32:29.752 [TestNG-test=all-tests-3] WARN  CustomListener - 'checkoutTest' method is failed, saving screenshot
+2019-11-17 22:32:29.764 [TestNG-test=all-tests-1] WARN  CustomListener - 'SignInExistingCustomer' method is failed, saving screenshot
+2019-11-17 22:32:30.601 [TestNG-test=all-tests-3] INFO  RegisterTest - Ending tests method 'checkoutTest'
+2019-11-17 22:32:31.033 [TestNG-test=all-tests-1] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 22:32:42.156 [TestNG-test=all-tests-2] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 22:32:43.065 [TestNG-test=all-tests-2] INFO  RegisterTest - Destroying the driver
+2019-11-17 22:32:43.066 [TestNG-test=all-tests-2] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-17 22:33:24.730 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-17 22:33:24.755 [TestNG-test=all-tests-1] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-17 22:33:24.756 [TestNG-test=all-tests-1] INFO  RegisterTest - Start initializing the driver
+2019-11-17 22:33:30.030 [TestNG-test=all-tests-1] INFO  RegisterTest - Finish initializing the driver
+2019-11-17 22:33:30.078 [TestNG-test=all-tests-1] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:33:35.861 [TestNG-test=all-tests-1] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-17 22:33:35.861 [TestNG-test=all-tests-2] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 22:33:36.057 [TestNG-test=all-tests-2] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:33:36.057 [TestNG-test=all-tests-1] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:33:41.835 [TestNG-test=all-tests-2] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-17 22:33:42.548 [TestNG-test=all-tests-2] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 22:33:42.552 [TestNG-test=all-tests-2] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-17 22:33:42.555 [TestNG-test=all-tests-2] INFO  HomePage - Navigating to url - '/'
+2019-11-17 22:33:44.733 [TestNG-test=all-tests-1] WARN  CustomListener - 'SignInExistingCustomer' method is failed, saving screenshot
+2019-11-17 22:33:45.578 [TestNG-test=all-tests-1] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-17 22:33:59.779 [TestNG-test=all-tests-2] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-17 22:34:00.652 [TestNG-test=all-tests-2] INFO  RegisterTest - Destroying the driver
+2019-11-17 22:34:00.655 [TestNG-test=all-tests-2] INFO  RegisterTest - Starting the After class of 'Base Test'

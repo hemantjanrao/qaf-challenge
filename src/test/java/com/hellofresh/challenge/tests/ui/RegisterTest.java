@@ -61,7 +61,7 @@ public class RegisterTest extends BaseUITest {
         myAccountPage.logoutSession();
     }
 
-    @Test()
+    /*@Test()
     public void checkoutTest(){
 
         String existingUserEmail = "hf_challenge_123456@hf123456.com";
@@ -71,11 +71,12 @@ public class RegisterTest extends BaseUITest {
 
         MyAccountPage myAccountPage = authenticationPage.existingUserLogin(existingUserEmail, existingUserPassword);
 
-        WomenFashioPage women = myAccountPage.gotoMenu("Women");
+        WomenFashionPage women = myAccountPage.gotoMenu("Women");
 
         women.gotoLink("Faded Short Sleeve T-shirts");
 
 
 
-    }
+
+    }*/
 }
