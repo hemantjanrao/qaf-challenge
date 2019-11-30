@@ -244,3 +244,195 @@
 2019-11-17 22:33:59.779 [TestNG-test=all-tests-2] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
 2019-11-17 22:34:00.652 [TestNG-test=all-tests-2] INFO  RegisterTest - Destroying the driver
 2019-11-17 22:34:00.655 [TestNG-test=all-tests-2] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-25 17:58:10.342 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-25 17:58:10.426 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-25 17:58:10.432 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-25 17:58:21.028 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-25 17:58:21.060 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-25 17:58:25.969 [main] INFO  RegisterTest - Starting tests method 'checkoutTest'
+2019-11-25 17:58:26.209 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-25 17:58:30.775 [main] WARN  CustomListener - 'checkoutTest' method is failed, saving screenshot
+2019-11-25 17:58:31.250 [main] INFO  RegisterTest - Ending tests method 'checkoutTest'
+2019-11-25 17:58:33.366 [main] INFO  RegisterTest - Destroying the driver
+2019-11-25 17:58:33.367 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 12:19:07.883 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 12:19:07.924 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 12:19:07.925 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 12:19:14.099 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 12:19:14.130 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 12:19:18.813 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 12:19:19.079 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 12:19:24.491 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 12:19:25.030 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 12:19:25.036 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 12:19:25.040 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 12:19:28.997 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 12:19:29.464 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 12:19:30.358 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 12:19:30.360 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 12:32:04.256 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 12:32:04.294 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 12:32:04.295 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 12:32:09.397 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 12:32:09.455 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 12:32:15.778 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 12:32:15.955 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 12:32:21.430 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 12:32:22.040 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 12:32:22.045 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 12:32:22.049 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 12:32:25.813 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 12:32:26.345 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 12:32:27.544 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 12:32:27.546 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 12:47:37.985 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 12:47:38.016 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 12:47:38.017 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 12:47:42.887 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 12:47:42.898 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 12:47:51.939 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 12:47:52.123 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 12:48:17.595 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 13:37:01.950 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 13:37:01.984 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 13:37:01.985 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 13:37:07.614 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 13:37:07.624 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:37:12.821 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:37:13.011 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:38:29.290 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 13:38:29.822 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 13:38:29.830 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:38:29.833 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:38:48.537 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 13:38:49.356 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 13:38:49.362 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 13:40:06.585 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 13:40:06.614 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 13:40:06.615 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 13:40:11.548 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 13:40:11.563 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:40:16.054 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:40:16.223 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:40:41.089 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 13:40:41.976 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 13:40:41.978 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 13:41:37.561 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 13:41:37.578 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 13:41:37.579 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 13:41:42.486 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 13:41:42.497 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:41:47.333 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:41:47.465 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:42:56.391 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 13:42:56.972 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 13:42:56.976 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:42:56.979 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:48:26.471 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 13:48:26.502 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 13:48:26.502 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 13:48:31.599 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 13:48:31.612 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:48:38.999 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:48:39.173 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:49:45.376 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 13:49:45.407 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 13:49:45.408 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 13:49:50.156 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 13:49:50.167 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:49:54.712 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:49:54.874 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:50:09.378 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 13:50:10.230 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 13:50:10.231 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 13:53:06.319 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 13:53:06.349 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 13:53:06.350 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 13:53:11.231 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 13:53:11.243 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:53:15.463 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:53:15.648 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 13:54:25.060 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 13:54:25.491 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 13:54:25.496 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 13:54:25.501 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:00:24.122 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 14:00:24.152 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 14:00:24.153 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 14:00:29.072 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 14:00:29.085 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:00:33.345 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 14:00:33.486 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:01:41.692 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 14:01:42.128 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 14:01:42.132 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 14:01:42.139 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:02:51.541 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 14:02:52.033 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 14:02:52.915 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 14:02:52.916 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 14:03:33.702 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 14:03:33.733 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 14:03:33.734 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 14:03:38.623 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 14:03:38.660 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:03:42.771 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 14:03:42.962 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:04:01.420 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 14:04:01.839 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 14:04:01.842 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 14:04:01.845 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:04:20.271 [main] WARN  CustomListener - 'SignInNewCustomer' method is failed, saving screenshot
+2019-11-30 14:04:20.614 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 14:04:21.538 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 14:04:21.539 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 14:04:47.903 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 14:04:47.936 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 14:04:47.937 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 14:04:52.710 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 14:04:52.723 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:05:05.984 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 14:05:06.132 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:05:23.584 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 14:05:24.478 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 14:05:24.502 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 14:05:44.288 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 14:05:44.323 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 14:05:44.324 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 14:05:49.303 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 14:05:49.314 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:05:53.803 [main] INFO  RegisterTest - Starting tests method 'SignInNewCustomer'
+2019-11-30 14:05:54.020 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:06:08.884 [main] INFO  RegisterTest - Ending tests method 'SignInNewCustomer'
+2019-11-30 14:06:09.753 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 14:06:09.754 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 14:11:45.419 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 14:11:45.449 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 14:11:45.450 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 14:11:50.320 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 14:11:50.358 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:11:54.912 [main] INFO  RegisterTest - Starting tests method 'SignInExistingCustomer'
+2019-11-30 14:11:55.080 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:12:03.712 [main] INFO  RegisterTest - Ending tests method 'SignInExistingCustomer'
+2019-11-30 14:12:04.538 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 14:12:04.541 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 14:12:46.602 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 14:12:46.632 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 14:12:46.633 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 14:12:51.548 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 14:12:51.580 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:12:57.355 [main] INFO  RegisterTest - Starting tests method 'checkoutTest'
+2019-11-30 14:12:57.508 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:13:09.975 [main] INFO  RegisterTest - Ending tests method 'checkoutTest'
+2019-11-30 14:13:10.809 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 14:13:10.810 [main] INFO  RegisterTest - Starting the After class of 'Base Test'
+2019-11-30 14:17:39.941 [main] INFO  RegisterTest - Setting up STAGING environment
+2019-11-30 14:17:39.971 [main] INFO  RegisterTest - Starting the Before class of 'Base Test'
+2019-11-30 14:17:39.972 [main] INFO  RegisterTest - Start initializing the driver
+2019-11-30 14:17:44.862 [main] INFO  RegisterTest - Finish initializing the driver
+2019-11-30 14:17:44.871 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:17:51.767 [main] INFO  RegisterTest - Starting tests method 'checkoutTest'
+2019-11-30 14:17:51.902 [main] INFO  HomePage - Navigating to url - '/'
+2019-11-30 14:18:02.327 [main] INFO  RegisterTest - Ending tests method 'checkoutTest'
+2019-11-30 14:18:03.125 [main] INFO  RegisterTest - Destroying the driver
+2019-11-30 14:18:03.126 [main] INFO  RegisterTest - Starting the After class of 'Base Test'

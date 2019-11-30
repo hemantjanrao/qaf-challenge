@@ -2,7 +2,7 @@
 <suite name="Suite2" verbose="1" thread-count="3" parallel="methods">
     <test name="all-tests">
         <classes>
-            <class name="com.hellofresh.challenge.tests.ui.RegisterTest">
+            <class name="RegisterTest">
             </class>
         </classes>
     </test>
