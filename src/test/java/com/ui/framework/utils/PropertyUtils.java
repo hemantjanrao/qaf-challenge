@@ -1,16 +1,23 @@
 package com.ui.framework.utils;
 
 import com.ui.framework.constants.Browser;
-import org.testng.log4testng.Logger;
+import org.slf4j.Logger;
+
+import static org.slf4j.LoggerFactory.getLogger;
+
+
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.Duration;
 import java.util.Properties;
+
+import static java.lang.invoke.MethodHandles.lookup;
 
 public class PropertyUtils {
 
-    private static Logger log = Logger.getLogger(PropertyUtils.class);
+    private static Logger log = getLogger(lookup().lookupClass());
     private static final String PROPERTY_FILE_NAME = "config.properties";
     private static final Properties PROPERTIES = getProperties();
 
@@ -47,9 +54,10 @@ public class PropertyUtils {
         return System.getProperty("stageUrl", PROPERTIES.getProperty("stageUrl"));
     }
 
-    public static long getDefaultTimeOutForElement() {
-        return Long.parseLong(System.getProperty("defaultTimeoutForElement",
+    public static Duration getDefaultTimeOutForElement() {
+        long durationProperty = Long.parseLong(System.getProperty("defaultTimeoutForElement",
                 PROPERTIES.getProperty("defaultTimeoutForElement")));
+        return Duration.ofSeconds(durationProperty);
     }
 
     public static long getRetryCount() {

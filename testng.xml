@@ -2,7 +2,7 @@
 <suite name="Suite2" verbose="1" thread-count="3" parallel="methods">
     <test name="all-tests">
         <classes>
-            <class name="RegisterTest">
+            <class name="com.ui.framework.tests.ui.RegisterTest">
             </class>
         </classes>
     </test>

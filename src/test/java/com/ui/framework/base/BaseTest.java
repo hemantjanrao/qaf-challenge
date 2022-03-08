@@ -2,17 +2,18 @@ package com.ui.framework.base;
 
 import com.ui.framework.listners.CustomListener;
 import com.ui.framework.utils.PropertyUtils;
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
 import org.testng.annotations.*;
 
 import java.lang.reflect.Method;
 
+import static java.lang.invoke.MethodHandles.lookup;
+import static org.slf4j.LoggerFactory.getLogger;
+
 @Listeners({CustomListener.class})
 public class BaseTest {
 
-    protected final Logger log = LogManager.getLogger(this);
+    protected static final Logger log = getLogger(lookup().lookupClass());
 
     @BeforeSuite
     public void setUpEnvironment(){
@@ -21,11 +22,11 @@ public class BaseTest {
 
                 case "smoke":
                     System.setProperty("appsUrl", PropertyUtils.getSmokeURL());
-                    log.log(Level.INFO, "Setting up SMOKE environment");
+                    log.info("Setting up SMOKE environment");
                     break;
                 case "stage":
                     System.setProperty("appsUrl", PropertyUtils.getStageURL());
-                    log.log(Level.INFO, "Setting up STAGING environment");
+                    log.info("Setting up STAGING environment");
                     break;
                 default:
                     System.out.println("Please provide correct environment name eg. dev, staging or local");
