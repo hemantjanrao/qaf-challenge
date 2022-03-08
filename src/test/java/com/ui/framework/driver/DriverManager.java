@@ -8,12 +8,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
-import org.testng.log4testng.Logger;
+import org.slf4j.Logger;
 
 import java.util.concurrent.TimeUnit;
 
+import static java.lang.invoke.MethodHandles.lookup;
+import static org.slf4j.LoggerFactory.getLogger;
+
 public class DriverManager {
-    private static Logger log = Logger.getLogger(DriverManager.class);
+    private static final Logger log = getLogger(lookup().lookupClass());
 
     public static WebDriver getWebDriver() {
         Browser browser = PropertyUtils.getBrowser();
