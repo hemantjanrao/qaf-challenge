@@ -4,11 +4,12 @@ import com.ui.framework.base.BaseUITest;
 import com.ui.framework.listners.Retry;
 import com.ui.framework.tests.dto.PersonInfo;
 import com.ui.framework.tests.pages.*;
-import org.junit.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class RegisterTest extends BaseUITest {
     private HomePage homePage;
@@ -36,9 +37,9 @@ public class RegisterTest extends BaseUITest {
 
         MyAccountPage myAccountPage = createAccountPage.registerUser(personInfo);
 
-        Assert.assertTrue(createAccountPage.getCurrentURL().contains("?controller=my-account"));
-        Assert.assertEquals(myAccountPage.getUserName(),personInfo.FirstName +" "+personInfo.LastName);
-        Assert.assertTrue(myAccountPage.isLogoutLinkAvailable());
+        assertThat(createAccountPage.getCurrentURL().contains("?controller=my-account"));
+        assertThat(myAccountPage.getUserName()).isEqualTo(personInfo.FirstName +" "+personInfo.LastName);
+        assertThat(myAccountPage.isLogoutLinkAvailable());
 
         myAccountPage.logoutSession();
     }
@@ -53,9 +54,9 @@ public class RegisterTest extends BaseUITest {
 
         MyAccountPage myAccountPage = authenticationPage.existingUserLogin(existingUserEmail, existingUserPassword);
 
-        Assert.assertTrue(myAccountPage.getCurrentURL().contains("?controller=my-account"));
-        Assert.assertEquals(myAccountPage.getUserName(),"Joe Black");
-        Assert.assertTrue(myAccountPage.isLogoutLinkAvailable());
+        assertThat(myAccountPage.getCurrentURL().contains("?controller=my-account"));
+        assertThat(myAccountPage.getUserName()).isEqualTo("Joe Black");
+        assertThat(myAccountPage.isLogoutLinkAvailable());
 
         myAccountPage.logoutSession();
     }

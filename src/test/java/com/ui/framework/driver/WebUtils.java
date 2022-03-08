@@ -7,7 +7,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class WebUtils {
 
@@ -53,7 +55,7 @@ public class WebUtils {
         }
     }
 
-    public static void waitForElementToBeDisplayed(WebDriver driver, WebElement element, long timeout) {
+    public static void waitForElementToBeDisplayed(WebDriver driver, WebElement element, Duration timeout) {
         try {
             new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOf(element));
 
@@ -62,7 +64,7 @@ public class WebUtils {
         }
     }
 
-    public static void waitForElementsToBeDisplayed(WebDriver driver, List<WebElement> elements, long timeout) {
+    public static void waitForElementsToBeDisplayed(WebDriver driver, List<WebElement> elements, Duration timeout) {
         try {
             new WebDriverWait(driver, timeout).until(ExpectedConditions.visibilityOfAllElements(elements));
 
@@ -71,7 +73,7 @@ public class WebUtils {
         }
     }
 
-    private static void waitForElementToBeClickable(WebDriver driver, WebElement element, long timeout) {
+    private static void waitForElementToBeClickable(WebDriver driver, WebElement element, Duration timeout) {
         try {
             new WebDriverWait(driver, timeout).until(ExpectedConditions.elementToBeClickable(element));
 
@@ -85,7 +87,7 @@ public class WebUtils {
                 webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
     }
 
-    public static void clickWithWaitForElement(WebDriver wd, By elem, long timeout) {
+    public static void clickWithWaitForElement(WebDriver wd, By elem, Duration timeout) {
 
         WebElement element = getElement(wd,elem);
         WebUtils.waitForElementToBeDisplayed(wd,element, timeout);

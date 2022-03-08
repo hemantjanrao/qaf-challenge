@@ -1,12 +1,11 @@
 package com.ui.framework.base;
 
 import com.ui.framework.driver.DriverManager;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.UnhandledAlertException;
 import org.openqa.selenium.WebDriver;
+import org.slf4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -19,9 +18,12 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.Objects;
 
+import static java.lang.invoke.MethodHandles.lookup;
+import static org.slf4j.LoggerFactory.getLogger;
+
 public class BaseUITest extends BaseTest {
     protected WebDriver wd = null;
-    protected final Logger log = LogManager.getLogger(this);
+    protected final Logger log = getLogger(lookup().lookupClass());
 
     @BeforeClass(alwaysRun = true)
     public void initializeDriver() {

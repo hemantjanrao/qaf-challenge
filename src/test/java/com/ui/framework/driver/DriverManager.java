@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.slf4j.Logger;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import static java.lang.invoke.MethodHandles.lookup;
 import static org.slf4j.LoggerFactory.getLogger;
@@ -21,8 +21,8 @@ public class DriverManager {
     public static WebDriver getWebDriver() {
         Browser browser = PropertyUtils.getBrowser();
         WebDriver driver = getWebdriver(browser);
-        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         System.setProperty("webdriver.timeouts.implicitlywait", "30");
 
         return driver;

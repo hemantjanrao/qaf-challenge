@@ -1,13 +1,15 @@
 package com.ui.framework.listners;
 
 import com.ui.framework.base.BaseUITest;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
 import org.testng.*;
+
+import static java.lang.invoke.MethodHandles.lookup;
+import static org.slf4j.LoggerFactory.getLogger;
 
 public class CustomListener implements IInvokedMethodListener {
 
-    protected final Logger log = LogManager.getLogger(this);
+    protected final Logger log = getLogger(lookup().lookupClass());
 
     @Override
     public void afterInvocation(IInvokedMethod method, ITestResult result) {
@@ -17,7 +19,7 @@ public class CustomListener implements IInvokedMethodListener {
             ITestNGMethod testNgMethod = method.getTestMethod();
             if (result.getStatus() == ITestResult.FAILURE) {
                 String methodName = testNgMethod.getMethodName();
-                log.warn(String.format("'%s' method is failed, saving screenshot", methodName));
+                log.debug(String.format("'%s' method is failed, saving screenshot", methodName));
                 baseTest.takeScreenShot(methodName);
             }
         }

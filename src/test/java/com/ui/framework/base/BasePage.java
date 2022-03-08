@@ -1,15 +1,17 @@
 package com.ui.framework.base;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+
+import static java.lang.invoke.MethodHandles.lookup;
+import static org.slf4j.LoggerFactory.getLogger;
 
 public abstract class BasePage<T extends BasePage> {
     protected WebDriver wd;
     String appsUrl = System.getProperty("appsUrl");
-    protected final Logger log = LogManager.getLogger(this);
+    protected final Logger log = getLogger(lookup().lookupClass());
 
     public abstract String getURL();
 
