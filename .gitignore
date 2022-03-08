@@ -20,3 +20,5 @@ buildNumber.properties
 *.iml
 *.idea
 target/*
+allure-results/*
+target/*

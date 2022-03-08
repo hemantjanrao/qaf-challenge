@@ -1,1 +1,0 @@
-{"uuid":"6d40e93a-ffb0-4367-bc7d-f641cbab4e55","name":"com.hellofresh.challenge.tests.ui.RegisterTest.beforeMethod","description":"","start":1575119041845,"stop":1575119044193,"children":["d2cb695c-f8f1-4d0f-bc55-87d97430e98b"],"befores":[{"name":"beforeMethod","status":"passed","stage":"finished","description":"","start":1575119041845,"stop":1575119044193}]}
