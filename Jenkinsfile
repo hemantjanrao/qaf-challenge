@@ -1,6 +1,6 @@
 pipeline {
 //     agent { docker { image 'maven-chrome:latest' } }
-    agent {label "node1"}
+    agent {label "master"}
     stages {
         stage('build') {
             steps {
