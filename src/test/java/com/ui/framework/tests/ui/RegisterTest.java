@@ -55,7 +55,7 @@ public class RegisterTest extends BaseUITest {
         MyAccountPage myAccountPage = authenticationPage.existingUserLogin(existingUserEmail, existingUserPassword);
 
         assertThat(myAccountPage.getCurrentURL().contains("?controller=my-account"));
-        assertThat(myAccountPage.getUserName()).isEqualTo("Joe Black");
+        assertThat(myAccountPage.getUserName()).isEqualTo("JUAN PEREZ");
         assertThat(myAccountPage.isLogoutLinkAvailable());
 
         myAccountPage.logoutSession();
