@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { docker { image 'maven-chrome' } }
     stages {
         stage('build') {
             steps {
