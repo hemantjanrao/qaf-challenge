@@ -3,11 +3,6 @@ pipeline {
     agent {label "own"}
 
     stages {
-        stage('build') {
-            steps {
-                sh 'mvn clean install'
-            }
-        }
         stage('compile') {
             steps {
                 sh 'mvn compile'
@@ -16,6 +11,19 @@ pipeline {
         stage('tests') {
             steps {
                 sh 'mvn test'
+            }
+            post {
+                always {
+                    script {
+                        allure([
+                                includeProperties: false,
+                                jdk: '',
+                                properties: [],
+                                reportBuildPolicy: 'ALWAYS',
+                                results: [[path: 'target/allure-results']]
+                              ])
+                    }
+                }
             }
         }
     }
