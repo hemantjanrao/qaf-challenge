@@ -44,33 +44,33 @@ public class RegisterTest extends BaseUITest {
         myAccountPage.logoutSession();
     }
 
-    @Test()
-    public void SignInExistingCustomer(){
-
-        String existingUserEmail = "hf_challenge_123456@hf123456.com";
-        String existingUserPassword = "12345678";
-
-        AuthenticationPage authenticationPage = homePage.signIn();
-
-        MyAccountPage myAccountPage = authenticationPage.existingUserLogin(existingUserEmail, existingUserPassword);
-
-        assertThat(myAccountPage.getCurrentURL().contains("?controller=my-account"));
-        assertThat(myAccountPage.getUserName()).isEqualTo("JUAN PEREZ");
-        assertThat(myAccountPage.isLogoutLinkAvailable());
-
-        myAccountPage.logoutSession();
-    }
-
-    @Test()
-    public void checkoutTest(){
-
-        String existingUserEmail = "hf_challenge_123456@hf123456.com";
-        String existingUserPassword = "12345678";
-
-        AuthenticationPage authenticationPage = homePage.signIn();
-        MyAccountPage myAccountPage = authenticationPage.existingUserLogin(existingUserEmail, existingUserPassword);
-        WomenFashionPage women = myAccountPage.gotoMenu("Women");
-
-        women.gotoLink("Faded Short Sleeve T-shirts");
-    }
+//    @Test()
+//    public void SignInExistingCustomer(){
+//
+//        String existingUserEmail = "hf_challenge_123456@hf123456.com";
+//        String existingUserPassword = "12345678";
+//
+//        AuthenticationPage authenticationPage = homePage.signIn();
+//
+//        MyAccountPage myAccountPage = authenticationPage.existingUserLogin(existingUserEmail, existingUserPassword);
+//
+//        assertThat(myAccountPage.getCurrentURL().contains("?controller=my-account"));
+//        assertThat(myAccountPage.getUserName()).isEqualTo("JUAN PEREZ");
+//        assertThat(myAccountPage.isLogoutLinkAvailable());
+//
+//        myAccountPage.logoutSession();
+//    }
+//
+//    @Test()
+//    public void checkoutTest(){
+//
+//        String existingUserEmail = "hf_challenge_123456@hf123456.com";
+//        String existingUserPassword = "12345678";
+//
+//        AuthenticationPage authenticationPage = homePage.signIn();
+//        MyAccountPage myAccountPage = authenticationPage.existingUserLogin(existingUserEmail, existingUserPassword);
+//        WomenFashionPage women = myAccountPage.gotoMenu("Women");
+//
+//        women.gotoLink("Faded Short Sleeve T-shirts");
+//    }
 }
